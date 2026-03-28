@@ -56,9 +56,18 @@
 
 /* header */
 
+.header {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 20px;
+}
+
 .header-top {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
+    margin-left: 100px;
+    margin-right: 100px;
 }
 
 .header-top-left {
@@ -85,4 +94,33 @@
     background-color: #F0B524;
     border-radius: 50%;
     padding: 5px;
+}
+
+.header-bottom {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+.header-bottom-left {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+
+.header-bottom-right {
+    display: flex;
+    gap: 30px;
+}
+
+.header-bottom-right button {
+    width: 100px;
+    height: 40px;
+    border-radius: 20px;
+    background-color: #239AD7;
+    color: #FFFFFF;
+    border: none;
+    font-size: 18px;
 }
