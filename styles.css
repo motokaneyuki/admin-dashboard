@@ -56,6 +56,11 @@
 
 /* header */
 
+.header-top {
+    display: flex;
+    justify-content: space-around;
+}
+
 .header-top-left {
     display: flex;
     align-items: center;
@@ -68,4 +73,15 @@
     background-color: #EDEFF1;
     border: none;
     border-radius: 20px;
+}
+
+.header-top-right {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+
+.profile-icon {
+    background-color: #F0B524;
+    border-radius: 50%;
 }
