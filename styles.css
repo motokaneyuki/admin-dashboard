@@ -13,6 +13,8 @@
     grid-template-rows: 1fr 5fr;
 }
 
+/* sidebar */
+
 .sidebar {
     font-size: 25px;
     font-weight: 600;
@@ -50,4 +52,20 @@
 
 .body {
     background-color: #EDEFF1;
+}
+
+/* header */
+
+.header-top-left {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.search-bar input {
+    width: 800px;
+    height: 40px;
+    background-color: #EDEFF1;
+    border: none;
+    border-radius: 20px;
 }
