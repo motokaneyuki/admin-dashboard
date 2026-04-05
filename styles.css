@@ -29,6 +29,11 @@
     list-style-type: none;
 }
 
+.sidebar li:hover {
+    font-size: large;
+    cursor: pointer;
+}
+
 .sidebar-items {
     padding-top: 70px;
     display: flex;
@@ -123,6 +128,11 @@
     font-size: 15px;
 }
 
+button:hover {
+    background-color: skyblue;
+    cursor: pointer;
+}
+
 /* body */
 
 .body {
@@ -158,6 +168,11 @@ p {
     font-size: smaller;
 }
 
+.project:hover {
+    box-shadow: 5px 5px 10px gray;
+    cursor: pointer;
+}
+
 .move-right {
     justify-self: end;
     align-self: flex-end;
@@ -190,6 +205,11 @@ p {
     gap: 5px;
 }
 
+.announcement:hover {
+    cursor: pointer;
+    color: #F0B524;
+}
+
 .announcement p {
     font-size: smaller;
 }
@@ -220,6 +240,10 @@ p {
     row-gap: 30px;
     column-gap: 5px;
     font-size: smaller;
+}
+
+.trending:hover {
+    cursor: pointer;
 }
 
 .trending div {
